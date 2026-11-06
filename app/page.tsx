@@ -86,7 +86,7 @@ export default function HomePage() {
             <span aria-hidden="true" className="absolute right-0 top-10 h-64 w-64 rounded-full bg-blush" />
             <div className="relative">
               <CreatorMatchCard />
-              <div className="absolute -bottom-8 -left-6 hidden rounded-full bg-white p-3 shadow-soft sm:block">
+              <div className="absolute -right-6 -top-8 hidden rounded-full bg-white p-3 shadow-soft sm:block">
                 <MatchScoreRing value={92} size={120} />
               </div>
             </div>
