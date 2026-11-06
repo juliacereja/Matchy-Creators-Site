@@ -3,13 +3,13 @@ import { cn } from "@/lib/cn";
 
 type LogoProps = {
   className?: string;
-  /** "pink" é o padrão do manual (magenta sobre creme). "cream" é para fundos plum ou magenta. */
+  /** "pink" é o padrão: Matchy magenta com ponto laranja. "cream" deixa o logo todo creme, para fundos plum ou magenta. */
   tone?: "pink" | "cream";
   href?: string | null;
 };
 
 /**
- * "Matchy." em Bootzy, com o ponto final na mesma fonte e sempre colado.
+ * "Matchy." em Bootzy, com o ponto final na mesma fonte, sempre colado e em Glow Orange.
  * A área de respiro (altura do "M", ~0.72em) é garantida pelo padding.
  */
 export function Logo({ className, tone = "pink", href = "/" }: LogoProps) {
@@ -21,7 +21,7 @@ export function Logo({ className, tone = "pink", href = "/" }: LogoProps) {
         className,
       )}
     >
-      Matchy.
+      Matchy<span className={tone === "pink" ? "text-orange" : undefined}>.</span>
     </span>
   );
 

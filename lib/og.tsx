@@ -13,7 +13,7 @@ export async function renderOg({ eyebrow, title }: { eyebrow: string; title: str
         <div style={{ position: "absolute", right: -160, top: -160, width: 560, height: 560, borderRadius: 9999, background: "#E5215F" }} />
         <div style={{ position: "absolute", right: 260, bottom: -90, width: 220, height: 220, borderRadius: 9999, background: "#FD5E12" }} />
         <div style={{ position: "absolute", left: -120, bottom: -160, width: 360, height: 360, borderRadius: 9999, background: "#FFB3C8" }} />
-        <div style={{ fontSize: 64, color: "#E5215F", letterSpacing: 1.2 }}>Matchy.</div>
+        <div style={{ display: "flex", fontSize: 64, color: "#E5215F", letterSpacing: 1.2 }}>Matchy<span style={{ color: "#FD5E12" }}>.</span></div>
         <div style={{ display: "flex", flexDirection: "column", maxWidth: 820 }}>
           <div style={{ fontSize: 26, color: "#B8174C", letterSpacing: 5, textTransform: "uppercase", marginBottom: 20 }}>{eyebrow}</div>
           <div style={{ fontSize: 68, lineHeight: 1.1, color: "#3B0E1E", letterSpacing: 1.3 }}>{title}</div>

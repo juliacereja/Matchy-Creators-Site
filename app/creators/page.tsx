@@ -179,7 +179,7 @@ export default function CreatorsPage() {
             <ScriptSeal tone="plum" className="absolute -top-4 right-4 z-30 sm:right-16">Em breve</ScriptSeal>
             <PhoneFrame>
               <div className="px-4 pb-6 pt-2">
-                <p className="text-center font-display text-xl font-extrabold text-pink">Matchy.</p>
+                <p className="text-center font-display text-xl font-extrabold text-pink">Matchy<span className="text-orange">.</span></p>
                 <p className="mt-1 text-center text-xs font-semibold uppercase tracking-[0.18em] text-plum-soft">Campanhas para você</p>
                 <div className="relative mt-4">
                   <div aria-hidden="true" className="absolute inset-x-3 -bottom-2 h-full rounded-[1.75rem] bg-blush" />

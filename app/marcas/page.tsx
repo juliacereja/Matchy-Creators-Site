@@ -202,7 +202,7 @@ export default function MarcasPage() {
             <ScriptSeal className="absolute -top-4 left-4 z-30 sm:left-20">Em breve</ScriptSeal>
             <PhoneFrame>
               <div className="px-4 pb-6 pt-2">
-                <p className="text-center font-display text-xl font-extrabold text-pink">Matchy.</p>
+                <p className="text-center font-display text-xl font-extrabold text-pink">Matchy<span className="text-orange">.</span></p>
                 <p className="mt-1 text-center text-xs font-semibold uppercase tracking-[0.18em] text-plum-soft">
                   Blush líquido · 14 candidaturas
                 </p>
