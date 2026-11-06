@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/Badge";
 import { cn } from "@/lib/cn";
 import type { Campaign } from "./campaigns";
 
-/** Card de campanha como a criadora vai ver no app. */
+/** Card de campanha como o creator vai ver no app. */
 export function CampaignCard({
   campaign,
   className,

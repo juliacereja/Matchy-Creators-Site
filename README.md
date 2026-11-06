@@ -14,7 +14,11 @@ npm run dev
 | --- | --- | --- |
 | Bootzy TM (local, 700 e 800) | `font-display` | Só títulos grandes, logo e números de destaque. Tracking +2%. |
 | Outfit (Google Fonts, 300 a 700) | `font-sans` | Todo o resto: corpo, botões, labels. |
-| Rousie (local, `public/fonts/Rousie.woff2`) | `font-script` | Fonte script do site. Só em selos (componente `ScriptSeal`) ou numa palavra de destaque isolada, sempre em minúsculas, sem caixa alta e sem letter-spacing, um pouco maior que o label em Outfit (20px contra 15px). Nunca em parágrafo ou UI. |
+| Rousie (local, `public/fonts/Rousie.woff2`) | `font-script` | Fonte script do site. Só em selos (componente `ScriptSeal`) ou numa palavra de destaque isolada, sempre em minúsculas, sem caixa alta e sem letter-spacing, em negrito e maior que o label em Outfit (28px contra 15px). Nunca em parágrafo ou UI. |
+
+## Linguagem
+
+Use "creators" (e "creator" no singular) para falar de quem produz conteúdo, porque o termo serve para qualquer gênero. Prefira frases sem artigo ou falando direto com "você", sem adjetivos de gênero. A expressão "criadores de conteúdo" fica só nos títulos e descrições de SEO, onde ajuda na busca. As páginas antigas `/criadoras` e `/obrigado-criadora` redirecionam para `/creators` e `/obrigado-creator`.
 
 ## Onde editar
 
@@ -51,5 +55,5 @@ npm run dev
 
 ## Pendências antes de publicar
 
-- **Placeholders**: preços e recursos (`config/plans.ts`), redes e e-mail (`config/links.ts`, `config/site.ts`), fotos (componente `PhotoPlaceholder`), campanhas e criadoras fictícias dos mockups (`components/mockups/`), textos de termos e privacidade (revisão jurídica).
+- **Placeholders**: preços e recursos (`config/plans.ts`), redes e e-mail (`config/links.ts`, `config/site.ts`), fotos (componente `PhotoPlaceholder`), campanhas e creators fictícios dos mockups (`components/mockups/`), textos de termos e privacidade (revisão jurídica).
 - **Acessibilidade de cor**: `#E5215F` com texto creme pequeno dá contraste 4,1:1 (o AA pede 4,5:1). Por isso os botões usam texto bold de 19px, as superfícies magenta com texto pequeno usam `pink-deep` (#D61C56) e o texto magenta pequeno sobre creme usa `pink-ink` (#B8174C). Laranja leva texto plum, porque creme sobre laranja não passa no AA.

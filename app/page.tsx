@@ -10,16 +10,16 @@ import { MatchScoreRing } from "@/components/mockups/MatchScoreRing";
 import { CreatorMatchCard } from "@/components/mockups/CreatorMatchCard";
 
 export const metadata: Metadata = {
-  title: { absolute: "Matchy | Onde marcas de beleza e criadoras de conteúdo se encontram" },
+  title: { absolute: "Matchy | Onde marcas e criadores de conteúdo se encontram" },
   description:
-    "A Matchy vai conectar marcas de beleza a nano e micro criadoras de UGC por valores, tom e estética em comum. Entre na lista de espera e garanta acesso antecipado.",
+    "A Matchy vai conectar marcas a nano e micro creators (criadores de conteúdo UGC) por valores, tom e estética em comum. Entre na lista de espera e garanta acesso antecipado.",
   alternates: { canonical: "/" },
 };
 
 const pillars = [
   {
     title: "Valores",
-    text: "Sustentabilidade, inclusão, rotina real, ciência na formulação: a marca e a criadora contam o que defendem, e a Matchy procura quem acredita nas mesmas coisas.",
+    text: "Sustentabilidade, inclusão, rotina real, ciência na formulação: a marca e o creator contam o que defendem, e a Matchy procura quem acredita nas mesmas coisas.",
   },
   {
     title: "Tom de comunicação",
@@ -27,7 +27,7 @@ const pillars = [
   },
   {
     title: "Estética",
-    text: "Paleta, luz, enquadramento e edição entram no cálculo para que o vídeo da criadora pareça ter nascido dentro do feed da marca.",
+    text: "Paleta, luz, enquadramento e edição entram no cálculo para que o vídeo do creator pareça ter nascido dentro do feed da marca.",
   },
 ];
 
@@ -48,11 +48,11 @@ export default function HomePage() {
           <div className="max-w-3xl">
             <ScriptSeal className="mb-6">Em breve</ScriptSeal>
             <h1 id="hero-titulo" className="text-title-1 text-plum">
-              Onde marcas de beleza e criadoras de conteúdo{" "}
-              <span className="text-pink">se encontram</span>
+              Onde marcas e creators{" "}
+              <span className="text-pink">encontram o match perfeito</span>
             </h1>
             <p className="mt-6 max-w-xl text-body text-plum-soft">
-              A Matchy vai aproximar marcas e criadoras de UGC pelo que faz uma parceria dar certo de verdade, que é ter
+              A Matchy vai aproximar marcas e creators de UGC pelo que faz uma parceria dar certo de verdade, que é ter
               valores, tom e estética em comum. Escolha o seu lado e garanta o seu lugar antes do lançamento.
             </p>
           </div>
@@ -68,7 +68,7 @@ export default function HomePage() {
               id="match-titulo"
               eyebrow="Como funciona o match"
               title="Um score que mostra quem combina com quem"
-              intro="Marcas e criadoras vão responder a um questionário rápido sobre o que acreditam, como falam e como gostam que o conteúdo pareça. A Matchy cruza essas respostas e transforma tudo em uma porcentagem de compatibilidade fácil de ler."
+              intro="Marcas e creators vão responder a um questionário rápido sobre o que acreditam, como falam e como gostam que o conteúdo pareça. A Matchy cruza essas respostas e transforma tudo em uma porcentagem de compatibilidade fácil de ler."
             />
             <ul className="mt-10 space-y-4">
               {pillars.map((p, i) => (
@@ -117,13 +117,13 @@ export default function HomePage() {
               </Button>
             </div>
             <div className="rounded-card bg-cream/5 p-7 ring-1 ring-cream/15">
-              <p className="text-eyebrow text-blush">Para criadoras</p>
+              <p className="text-eyebrow text-blush">Para creators</p>
               <p className="mt-4 text-body-sm text-cream/90">
                 Campanhas abertas mostrando o seu percentual de match, candidatura em um toque e pagamento garantido, para
-                você crescer sendo escolhida pelo seu estilo e não só pelo tamanho do perfil.
+                você crescer pelo seu estilo e não só pelo tamanho do perfil.
               </p>
-              <Button href="/criadoras" className="mt-6" event="click_sou_criadora" eventParams={{ origem: "home_diferencial" }}>
-                Sou criadora
+              <Button href="/creators" className="mt-6" event="click_sou_creator" eventParams={{ origem: "home_diferencial" }}>
+                Sou creator
               </Button>
             </div>
           </div>
@@ -137,15 +137,15 @@ export default function HomePage() {
             As primeiras vagas vão para quem chegar <span className="text-pink">primeiro</span>
           </h2>
           <p className="mt-5 text-body text-plum-soft">
-            Marcas fundadoras vão garantir um preço especial que não sobe depois, e criadoras da lista vão montar o perfil
+            Marcas fundadoras vão garantir um preço especial que não sobe depois, e creators da lista vão montar o perfil
             antes de todo mundo para aparecer nas primeiras campanhas.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
             <Button href="/planos" size="lg" event="click_ver_planos" eventParams={{ origem: "home_cta" }}>
               Ver planos para marcas
             </Button>
-            <Button href="/criadoras#lista" size="lg" variant="secondary" event="click_sou_criadora" eventParams={{ origem: "home_cta" }}>
-              Entrar como criadora
+            <Button href="/creators#lista" size="lg" variant="secondary" event="click_sou_creator" eventParams={{ origem: "home_cta" }}>
+              Entrar como creator
             </Button>
           </div>
         </div>

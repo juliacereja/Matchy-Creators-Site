@@ -2,7 +2,7 @@ import { cn } from "@/lib/cn";
 
 /** Espaço reservado para fotos reais. Troque por <Image> quando tiver as imagens. */
 export function PhotoPlaceholder({
-  label = "foto da criadora",
+  label = "foto do creator",
   className,
 }: {
   label?: string;

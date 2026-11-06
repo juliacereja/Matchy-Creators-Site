@@ -12,8 +12,8 @@ export function Footer() {
         <div>
           <Logo tone="cream" className="text-4xl" />
           <p className="mt-4 max-w-sm text-body-sm text-cream/85">
-            A Matchy vai aproximar marcas de beleza e criadoras de conteúdo que têm valores, tom e estética em comum.
-            O app chega em breve.
+            Matchy aproxima marcas e creators por valores, tom e estética que dão match! O app chega em
+            breve.
           </p>
         </div>
 
@@ -21,7 +21,7 @@ export function Footer() {
           <p className="text-eyebrow mb-4 text-blush">Navegue</p>
           <ul className="space-y-3 text-body-sm">
             <li><Link className="hover:text-blush" href="/marcas">Para marcas</Link></li>
-            <li><Link className="hover:text-blush" href="/criadoras">Para criadoras</Link></li>
+            <li><Link className="hover:text-blush" href="/creators">Para creators</Link></li>
             <li><Link className="hover:text-blush" href="/planos">Planos</Link></li>
             <li><Link className="hover:text-blush" href="/termos">Termos de uso</Link></li>
             <li><Link className="hover:text-blush" href="/privacidade">Política de privacidade</Link></li>

@@ -54,7 +54,7 @@ export function PlanCard({ plan, cycle }: { plan: Plan; cycle: BillingCycle }) {
           <dd className="mt-1 font-display text-2xl capitalize">{plan.activeCampaigns}</dd>
         </div>
         <div>
-          <dt className="text-xs font-semibold uppercase tracking-[0.14em]">Criadoras por campanha</dt>
+          <dt className="text-xs font-semibold uppercase tracking-[0.14em]">Creators por campanha</dt>
           <dd className="mt-1 font-display text-2xl">{plan.creatorsPerCampaign}</dd>
         </div>
       </dl>

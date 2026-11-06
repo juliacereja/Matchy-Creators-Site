@@ -18,7 +18,7 @@ export default function PrivacidadePage() {
       <h2>Quais dados coletamos</h2>
       <p>
         Para marcas, coletamos nome da marca, site ou Instagram, nome e cargo da pessoa responsável, e-mail corporativo,
-        WhatsApp (opcional), segmento, plano de interesse e volume estimado de conteúdo. Para criadoras, coletamos nome,
+        WhatsApp (opcional), segmento, plano de interesse e volume estimado de conteúdo. Para creators, coletamos nome,
         e-mail, perfis no Instagram e no TikTok, nicho, faixa de seguidores, cidade e estado. Em ambos os casos também
         registramos a página de origem, os parâmetros de campanha (UTM) e informações técnicas do navegador.
       </p>

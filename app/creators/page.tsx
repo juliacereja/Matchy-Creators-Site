@@ -19,15 +19,15 @@ import { CreatorWaitlistForm } from "@/components/forms/CreatorWaitlistForm";
 import { creatorFaq } from "@/config/faq";
 
 export const metadata: Metadata = {
-  title: "Para criadoras: feche collabs com marcas que combinam com você",
+  title: "Para creators: feche collabs com marcas que combinam com você",
   description:
-    "Na Matchy, o que vai contar é o match de estilo e valores com as marcas de beleza, não só o número de seguidores. Entre na lista de espera gratuita para criadoras.",
-  alternates: { canonical: "/criadoras" },
+    "Na Matchy, o que vai contar é o match de estilo e valores com as marcas, não só o número de seguidores. Entre na lista de espera gratuita para creators e criadores de conteúdo UGC.",
+  alternates: { canonical: "/creators" },
   openGraph: {
-    title: "Matchy para criadoras: collabs com marcas que combinam com você",
+    title: "Matchy para creators: collabs com marcas que combinam com você",
     description:
-      "Campanhas de beleza com o seu percentual de match, contrato pronto e pagamento garantido. Entre na lista de espera.",
-    url: "/criadoras",
+      "Campanhas com o seu percentual de match, contrato pronto e pagamento garantido. Entre na lista de espera.",
+    url: "/creators",
   },
 };
 
@@ -73,11 +73,11 @@ const benefits = [
   },
 ];
 
-export default function CriadorasPage() {
+export default function CreatorsPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative overflow-hidden pb-16 pt-32 md:pb-24 md:pt-40" aria-labelledby="hero-criadoras">
+      <section className="relative overflow-hidden pb-16 pt-32 md:pb-24 md:pt-40" aria-labelledby="hero-creators">
         <DecorCircles
           circles={[
             { color: "pink", size: "34rem", className: "-right-40 top-24 hidden lg:block" },
@@ -87,19 +87,19 @@ export default function CriadorasPage() {
         />
         <Container className="relative grid items-center gap-14 lg:grid-cols-[1.15fr_1fr]">
           <div>
-            <p className="text-eyebrow mb-5 text-pink-ink">Para criadoras de conteúdo</p>
-            <h1 id="hero-criadoras" className="text-title-1 text-plum">
+            <p className="text-eyebrow mb-5 text-pink-ink">Para creators</p>
+            <h1 id="hero-creators" className="text-title-1 text-plum">
               Feche collabs com marcas que <span className="text-pink">combinam com você</span>
             </h1>
             <p className="mt-6 max-w-xl text-body text-plum-soft">
-              A Matchy vai mostrar campanhas de beleza escolhidas para o seu estilo, com o percentual de match na tela, contrato
+              A Matchy vai mostrar campanhas escolhidas para o seu estilo, com o percentual de match na tela, contrato
               pronto e pagamento garantido. Você só precisa ser você e criar o conteúdo que já sabe fazer bem.
             </p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
-              <Button href="#lista" size="lg" event="click_entrar_lista" eventParams={{ origem: "hero_criadoras" }}>
+              <Button href="#lista" size="lg" event="click_entrar_lista" eventParams={{ origem: "hero_creators" }}>
                 Quero entrar na lista
               </Button>
-              <p className="text-sm font-medium text-plum-soft sm:ml-3">Gratuito para criadoras</p>
+              <p className="text-sm font-medium text-plum-soft sm:ml-3">Gratuito para creators</p>
             </div>
           </div>
           <div className="relative flex flex-col items-center">
@@ -119,10 +119,10 @@ export default function CriadorasPage() {
             tone="light"
             eyebrow="A real"
             title="Com poucos seguidores, parece que as marcas nem te enxergam"
-            intro="Você manda direct, monta mídia kit, marca a empresa nos stories e mesmo assim a resposta não vem, porque a maioria das marcas ainda filtra criadoras por número antes de olhar o conteúdo. Quem está começando acaba ficando de fora sem ter tido a chance de mostrar o próprio trabalho."
+            intro="Você manda direct, monta mídia kit, marca a empresa nos stories e mesmo assim a resposta não vem, porque a maioria das marcas ainda filtra creators por número antes de olhar o conteúdo. Quem está começando acaba ficando de fora sem ter tido a chance de mostrar o próprio trabalho."
           />
           <FadeIn className="grid grid-cols-3 gap-3">
-            {["foto da criadora", "foto da criadora", "foto da criadora"].map((l, i) => (
+            {["foto do creator", "foto do creator", "foto do creator"].map((l, i) => (
               <PhotoPlaceholder key={i} label={l} className={`aspect-[3/4] rounded-[1.5rem] text-[0.65rem] ${i === 1 ? "translate-y-6" : ""}`} />
             ))}
           </FadeIn>
@@ -130,7 +130,7 @@ export default function CriadorasPage() {
       </Section>
 
       {/* Diferencial */}
-      <Section labelledBy="diferencial-criadoras">
+      <Section labelledBy="diferencial-creators">
         <div className="grid items-center gap-12 lg:grid-cols-[1fr_1.1fr]">
           <FadeIn className="order-2 lg:order-1">
             <div className="rounded-card-lg border border-cream-dark bg-white/70 p-8">
@@ -157,10 +157,10 @@ export default function CriadorasPage() {
           </FadeIn>
           <div className="order-1 lg:order-2">
             <SectionHeading
-              id="diferencial-criadoras"
+              id="diferencial-creators"
               eyebrow="O diferencial"
               title={<>Aqui o que conta é o <span className="text-pink">match</span> de estilo e valores</>}
-              intro="Seguidores continuam aparecendo no seu perfil, mas a Matchy vai colocar na frente o quanto você combina com cada marca. Uma criadora com dois mil seguidores e a estética certa pode ficar no topo da lista de uma campanha, e é exatamente essa chance que a gente quer abrir para você."
+              intro="Seguidores continuam aparecendo no seu perfil, mas a Matchy vai colocar na frente o quanto você combina com cada marca. Um perfil com dois mil seguidores e a estética certa pode ficar no topo da lista de uma campanha, e é exatamente essa chance que a gente quer abrir para você."
             />
           </div>
         </div>
@@ -172,7 +172,7 @@ export default function CriadorasPage() {
       </Section>
 
       {/* Mockup do app */}
-      <Section labelledBy="app-criadoras">
+      <Section labelledBy="app-creators">
         <DecorCircles circles={[{ color: "orange", size: "18rem", className: "-left-24 bottom-10 hidden md:block" }]} />
         <div className="relative grid items-center gap-14 lg:grid-cols-2">
           <div className="relative">
@@ -198,7 +198,7 @@ export default function CriadorasPage() {
           </div>
           <div>
             <SectionHeading
-              id="app-criadoras"
+              id="app-creators"
               eyebrow="Uma prévia do app"
               title="Deslizou para a direita, está concorrendo"
               intro="As campanhas vão aparecer em cards com tudo o que você precisa saber para decidir rápido: marca, entregas, cachê, número de vagas, prazo e o seu percentual de match. Coração para se candidatar, X para passar, sem formulário longo nem proposta para escrever."
@@ -218,9 +218,9 @@ export default function CriadorasPage() {
       </Section>
 
       {/* Benefícios */}
-      <Section tone="plum" labelledBy="beneficios-criadoras">
+      <Section tone="plum" labelledBy="beneficios-creators">
         <SectionHeading
-          id="beneficios-criadoras"
+          id="beneficios-creators"
           tone="light"
           eyebrow="Benefícios"
           title="Tudo o que faltava para você levar o UGC a sério"
@@ -232,7 +232,7 @@ export default function CriadorasPage() {
       {/* Lista de espera */}
       <WaitlistSection
         title="Garanta o seu perfil antes das primeiras campanhas"
-        intro="Quem entrar agora vai receber o convite antes de todo mundo e montar o perfil com calma, para já estar pronta quando as marcas começarem a publicar. É gratuito e leva menos de um minuto."
+        intro="Quem entrar agora vai receber o convite antes de todo mundo e montar o perfil com calma, para que o seu perfil já esteja no ar quando as marcas começarem a publicar. É gratuito e leva menos de um minuto."
       >
         <CreatorWaitlistForm />
       </WaitlistSection>

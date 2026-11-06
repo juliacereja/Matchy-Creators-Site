@@ -14,7 +14,7 @@ export const brandFaq: FaqItem[] = [
   {
     question: "Como o score de compatibilidade vai ser calculado?",
     answer:
-      "A marca e a criadora vão responder a um questionário sobre valores, tom de comunicação e estética visual. A Matchy cruza essas respostas com o histórico de conteúdo da criadora e devolve uma porcentagem de match, para que você veja de cara quem tem a ver com a sua marca, independente do número de seguidores.",
+      "A marca e o creator vão responder a um questionário sobre valores, tom de comunicação e estética visual. A Matchy cruza essas respostas com o histórico de conteúdo de cada creator e devolve uma porcentagem de match, para que você veja de cara quem tem a ver com a sua marca, independente do número de seguidores.",
   },
   {
     question: "O que é a condição de fundador?",
@@ -24,7 +24,7 @@ export const brandFaq: FaqItem[] = [
   {
     question: "Quem vai cuidar de contrato e pagamento?",
     answer:
-      "A Matchy. Cada job vai ter contrato padrão, prazo de entrega e pagamento intermediado pela plataforma, então a sua equipe não vai precisar redigir acordos nem fazer transferências avulsas para cada criadora.",
+      "A Matchy. Cada job vai ter contrato padrão, prazo de entrega e pagamento intermediado pela plataforma, então a sua equipe não vai precisar redigir acordos nem fazer transferências avulsas para cada creator.",
   },
   {
     question: "Posso usar o conteúdo em anúncios?",
@@ -37,17 +37,17 @@ export const creatorFaq: FaqItem[] = [
   {
     question: "Quando o app lança?",
     answer:
-      "Falta pouco. Estamos finalizando o app e quem estiver na lista vai ser avisada primeiro, com acesso antecipado para montar o perfil antes das marcas começarem a publicar campanhas.",
+      "Falta pouco. Estamos finalizando o app e quem estiver na lista vai receber o aviso primeiro, com acesso antecipado para montar o perfil antes das marcas começarem a publicar campanhas.",
   },
   {
-    question: "É gratuito para criadoras?",
+    question: "É gratuito para creators?",
     answer:
       "Sim, criar o perfil, responder ao questionário de estilo e se candidatar às campanhas vai ser gratuito. A Matchy é remunerada pelas marcas, e você recebe o valor combinado em cada job.",
   },
   {
     question: "Preciso ter muitos seguidores?",
     answer:
-      "Não precisa. A Matchy vai olhar primeiro para o seu estilo, os seus valores e a qualidade do que você produz. Muitas marcas procuram justamente nano e micro criadoras, porque o conteúdo soa mais próximo e verdadeiro.",
+      "Não precisa. A Matchy vai olhar primeiro para o seu estilo, os seus valores e a qualidade do que você produz. Muitas marcas procuram justamente nano e micro creators, porque o conteúdo soa mais próximo e verdadeiro.",
   },
   {
     question: "Como vou receber?",

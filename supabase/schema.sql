@@ -27,7 +27,7 @@ create table if not exists public.waitlist_brands (
 
 create unique index if not exists waitlist_brands_email_key on public.waitlist_brands (lower(email));
 
--- CRIADORAS ------------------------------------------------------------
+-- CREATORS ------------------------------------------------------------
 create table if not exists public.waitlist_creators (
   id              uuid primary key default gen_random_uuid(),
   created_at      timestamptz not null default now(),

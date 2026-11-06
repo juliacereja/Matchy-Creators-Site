@@ -5,5 +5,5 @@ export const size = ogSize;
 export const contentType = "image/png";
 
 export default function Image() {
-  return renderOg({ eyebrow: "Para criadoras", title: "Feche collabs com marcas que combinam com você" });
+  return renderOg({ eyebrow: "Para creators", title: "Feche collabs com marcas que combinam com você" });
 }

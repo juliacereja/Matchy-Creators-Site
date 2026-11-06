@@ -35,7 +35,7 @@ export function CreatorWaitlistForm() {
       return;
     }
     track("submit_waitlist_creator", { nicho: data.niche, seguidores: data.followers_range });
-    router.push("/obrigado-criadora");
+    router.push("/obrigado-creator");
   };
 
   return (

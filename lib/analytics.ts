@@ -5,7 +5,7 @@
 
 export type AnalyticsEvent =
   | "click_sou_marca"
-  | "click_sou_criadora"
+  | "click_sou_creator"
   | "click_ver_planos"
   | "click_reservar_fundador"
   | "click_entrar_lista"

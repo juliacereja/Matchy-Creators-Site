@@ -11,7 +11,7 @@ import { MotionProvider } from "@/components/ui/Motion";
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "Matchy | Onde marcas de beleza e criadoras de conteúdo se encontram",
+    default: "Matchy | Onde marcas e criadores de conteúdo se encontram",
     template: "%s | Matchy",
   },
   description: site.description,
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: site.locale,
     siteName: "Matchy",
-    title: "Matchy | Onde marcas de beleza e criadoras de conteúdo se encontram",
+    title: "Matchy | Onde marcas e criadores de conteúdo se encontram",
     description: site.description,
   },
   twitter: { card: "summary_large_image" },

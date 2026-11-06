@@ -20,9 +20,9 @@ import { BrandWaitlistForm } from "@/components/forms/BrandWaitlistForm";
 import { brandFaq } from "@/config/faq";
 
 export const metadata: Metadata = {
-  title: "Para marcas: criadoras UGC alinhadas aos valores da sua marca",
+  title: "Para marcas: creators UGC alinhados aos valores da sua marca",
   description:
-    "A Matchy vai encontrar nano e micro criadoras de UGC compatíveis com os valores, o tom e a estética da sua marca de beleza, com contrato e pagamento gerenciados. Garanta a condição de fundador.",
+    "A Matchy vai encontrar nano e micro creators (criadores de conteúdo UGC) compatíveis com os valores, o tom e a estética da sua marca, com contrato e pagamento gerenciados. Garanta a condição de fundador.",
   alternates: { canonical: "/marcas" },
   openGraph: {
     title: "Matchy para marcas: UGC autêntico com score de compatibilidade",
@@ -39,11 +39,11 @@ const steps = [
   },
   {
     title: "Receba candidaturas ranqueadas",
-    text: "As criadoras interessadas vão chegar ordenadas pelo score de compatibilidade com a sua marca, com portfólio e avaliações à vista.",
+    text: "Os perfis interessados vão chegar ordenados pelo score de compatibilidade com a sua marca, com portfólio e avaliações à vista.",
   },
   {
     title: "Dê match com um swipe",
-    text: "Deslize para a direita nas criadoras que fazem sentido e monte o casting da campanha em minutos em vez de dias.",
+    text: "Deslize para a direita nos creators que fazem sentido e monte o casting da campanha em minutos em vez de dias.",
   },
   {
     title: "Receba o conteúdo pronto",
@@ -55,7 +55,7 @@ const benefits = [
   {
     icon: "∞",
     title: "UGC autêntico em escala",
-    text: "Vários conteúdos por mês com criadoras que já falam como a sua marca, sem perder a naturalidade que faz o UGC converter.",
+    text: "Vários conteúdos por mês com creators que já falam como a sua marca, sem perder a naturalidade que faz o UGC converter.",
   },
   {
     icon: "✓",
@@ -88,12 +88,12 @@ export default function MarcasPage() {
         />
         <Container className="relative grid items-center gap-14 lg:grid-cols-[1.15fr_1fr]">
           <div>
-            <p className="text-eyebrow mb-5 text-pink-ink">Para marcas de beleza</p>
+            <p className="text-eyebrow mb-5 text-pink-ink">Para marcas</p>
             <h1 id="hero-marcas" className="text-title-1 text-plum">
-              Criadoras que combinam com os <span className="text-pink">valores e a estética</span> da sua marca
+              Creators que combinam com os <span className="text-pink">valores e a estética</span> da sua marca
             </h1>
             <p className="mt-6 max-w-xl text-body text-plum-soft">
-              A Matchy vai cruzar o que a sua marca acredita, como ela fala e como ela aparece com o perfil de cada criadora
+              A Matchy vai cruzar o que a sua marca acredita, como ela fala e como ela aparece com o perfil de cada creator
               de UGC, para entregar candidaturas ranqueadas por compatibilidade e conteúdo que parece ter sido feito em casa.
             </p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
@@ -123,7 +123,7 @@ export default function MarcasPage() {
           />
           <div className="space-y-5 text-body text-cream/90">
             <p>
-              A maior parte das buscas por criadoras ainda começa por alcance e engajamento, e esses números ajudam a medir
+              A maior parte das buscas por creators ainda começa por alcance e engajamento, e esses números ajudam a medir
               audiência, mas dizem pouco sobre o que importa no UGC: se a pessoa acredita no mesmo que a sua marca, se o jeito
               dela falar conversa com o seu público e se a estética do vídeo cabe no seu feed.
             </p>
@@ -142,12 +142,12 @@ export default function MarcasPage() {
             <SectionHeading
               id="diferencial-marcas"
               eyebrow="O diferencial"
-              title={<>Um <span className="text-pink">score de compatibilidade</span> para cada criadora</>}
+              title={<>Um <span className="text-pink">score de compatibilidade</span> para cada creator</>}
               intro="Cada candidatura vai chegar com uma porcentagem de match calculada a partir de três dimensões que a sua marca define no cadastro. Você continua vendo seguidores e engajamento, só que agora ao lado de um número que mostra afinidade real."
             />
             <dl className="mt-10 grid gap-4 sm:grid-cols-3">
               {[
-                { k: "Valores", v: "O que a marca e a criadora defendem" },
+                { k: "Valores", v: "O que a marca e o creator defendem" },
                 { k: "Tom", v: "Como cada uma conversa com o público" },
                 { k: "Estética", v: "Luz, cor, edição e enquadramento" },
               ].map((d) => (
@@ -210,7 +210,7 @@ export default function MarcasPage() {
                   {[
                     { n: "Bia Martins", h: "@biamakes", m: 92 },
                     { n: "Luana Reis", h: "@luareis.skin", m: 87 },
-                    { n: "Carol Nunes", h: "@carolnunesbeauty", m: 81 },
+                    { n: "Rafa Lima", h: "@rafalima.ugc", m: 81 },
                   ].map((c) => (
                     <li key={c.h} className="flex items-center gap-3 rounded-2xl border border-cream-dark bg-white p-2.5">
                       <PhotoPlaceholder label="foto" className="h-12 w-12 shrink-0 rounded-xl text-[0.5rem]" />

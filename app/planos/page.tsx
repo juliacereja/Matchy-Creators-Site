@@ -12,7 +12,7 @@ import { brandFaq } from "@/config/faq";
 export const metadata: Metadata = {
   title: "Planos para marcas com condição de fundador",
   description:
-    "Conheça os planos da Matchy para marcas de beleza e reserve o preço de fundador sem pagar nada agora. A condição fica garantida para o lançamento.",
+    "Conheça os planos da Matchy para marcas e reserve o preço de fundador sem pagar nada agora. A condição fica garantida para o lançamento.",
   alternates: { canonical: "/planos" },
   openGraph: {
     title: "Planos Matchy: reserve a condição de fundador",

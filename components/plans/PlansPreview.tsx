@@ -28,7 +28,7 @@ export function PlansPreview() {
             </p>
             <p className={cn("mt-3 text-body-sm", p.highlighted ? "text-cream" : "text-plum-soft")}>
               {typeof p.activeCampaigns === "number" ? `${p.activeCampaigns} campanhas ativas` : "Campanhas ilimitadas"} e até{" "}
-              {p.creatorsPerCampaign} criadoras por campanha.
+              {p.creatorsPerCampaign} creators por campanha.
             </p>
             <Link
               href={`/planos#plano-${p.id}`}

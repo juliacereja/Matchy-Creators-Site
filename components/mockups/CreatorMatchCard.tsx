@@ -8,11 +8,11 @@ const breakdown = [
   { label: "Estética", value: 91 },
 ];
 
-/** Mockup do card de criadora visto pela marca, com o score de compatibilidade. */
+/** Mockup do card de creator visto pela marca, com o score de compatibilidade. */
 export function CreatorMatchCard({ className }: { className?: string }) {
   return (
     <figure
-      aria-label="Exemplo de card de criadora com 92% de match"
+      aria-label="Exemplo de card de creator com 92% de match"
       className={cn("w-full max-w-sm rounded-card-lg border border-cream-dark bg-white p-4 shadow-soft", className)}
     >
       <div className="relative">

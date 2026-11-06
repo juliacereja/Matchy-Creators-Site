@@ -73,7 +73,7 @@ export const plans: Plan[] = [
       "Tudo do Crescimento",
       "Múltiplos usuários e marcas",
       "Gerente de conta dedicado",
-      "Curadoria manual de criadoras",
+      "Curadoria manual de creators",
       "Integração via API",
     ],
     stripePriceEnv: {
@@ -96,7 +96,7 @@ export const comparisonRows: { label: string; values: Record<Plan["id"], boolean
     values: { essencial: "2", crescimento: "6", escala: "Ilimitadas" },
   },
   {
-    label: "Criadoras por campanha",
+    label: "Creators por campanha",
     values: { essencial: "5", crescimento: "15", escala: "40" },
   },
   {
