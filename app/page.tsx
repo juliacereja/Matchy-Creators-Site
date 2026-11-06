@@ -38,10 +38,10 @@ export default function HomePage() {
       <section className="relative overflow-hidden pb-16 pt-32 md:pb-24 md:pt-40" aria-labelledby="hero-titulo">
         <DecorCircles
           circles={[
-            { color: "pink", size: "30rem", className: "-right-56 top-16 hidden lg:block xl:-right-40" },
-            { color: "orange", size: "7rem", className: "right-28 top-[26rem] hidden xl:block" },
-            { color: "blush", size: "8rem", className: "-right-12 top-24 lg:hidden" },
-            { color: "blush", size: "22rem", className: "-bottom-40 -left-40" },
+            { color: "pink", size: "16rem", className: "right-10 top-28 hidden lg:block" },
+            { color: "orange", size: "5rem", className: "right-[20rem] top-[22rem] hidden xl:block" },
+            { color: "blush", size: "5rem", className: "right-5 top-24 lg:hidden" },
+            { color: "blush", size: "4rem", className: "bottom-5 left-8 hidden md:block" },
           ]}
         />
         <Container className="relative">
@@ -83,7 +83,7 @@ export default function HomePage() {
             </ul>
           </div>
           <FadeIn className="relative flex justify-center">
-            <span aria-hidden="true" className="absolute -right-10 top-10 h-64 w-64 rounded-full bg-blush" />
+            <span aria-hidden="true" className="absolute right-0 top-10 h-64 w-64 rounded-full bg-blush" />
             <div className="relative">
               <CreatorMatchCard />
               <div className="absolute -bottom-8 -left-6 hidden rounded-full bg-white p-3 shadow-soft sm:block">
@@ -96,7 +96,7 @@ export default function HomePage() {
 
       {/* Diferencial */}
       <Section tone="plum" labelledBy="diferencial-titulo">
-        <DecorCircles circles={[{ color: "pink", size: "26rem", className: "-right-40 -bottom-52" }]} />
+        <DecorCircles circles={[{ color: "pink", size: "6rem", className: "bottom-8 left-8 hidden lg:block" }]} />
         <div className="relative grid gap-12 lg:grid-cols-2">
           <SectionHeading
             id="diferencial-titulo"

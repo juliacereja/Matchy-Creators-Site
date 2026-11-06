@@ -23,8 +23,8 @@ export function ThankYou({
     <section className="relative overflow-hidden pb-24 pt-32 md:pt-40" aria-labelledby="obrigado-titulo">
       <DecorCircles
         circles={[
-          { color: "pink", size: "24rem", className: "-right-32 -top-20 hidden md:block" },
-          { color: "blush", size: "18rem", className: "-bottom-24 -left-24" },
+          { color: "pink", size: "12rem", className: "right-6 top-28 hidden xl:block" },
+          { color: "blush", size: "8rem", className: "bottom-8 left-8 hidden xl:block" },
         ]}
       />
       <Container className="relative">

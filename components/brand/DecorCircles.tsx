@@ -8,7 +8,7 @@ type Circle = {
 
 const colorMap = { pink: "bg-pink", orange: "bg-orange", blush: "bg-blush" };
 
-/** Círculos grandes cortados pelas bordas da seção. Puramente decorativos. */
+/** Círculos decorativos, sempre inteiros dentro da seção (nunca cortados pelas bordas). */
 export function DecorCircles({ circles, className }: { circles: Circle[]; className?: string }) {
   return (
     <div aria-hidden="true" className={cn("pointer-events-none absolute inset-0 overflow-hidden", className)}>

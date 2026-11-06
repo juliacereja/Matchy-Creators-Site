@@ -31,8 +31,8 @@ export default function PlanosPage() {
       <section className="relative overflow-hidden pb-20 pt-32 md:pb-28 md:pt-40" aria-labelledby="planos-titulo">
         <DecorCircles
           circles={[
-            { color: "blush", size: "26rem", className: "-left-40 -top-24 hidden md:block" },
-            { color: "orange", size: "12rem", className: "-right-16 top-40 hidden md:block" },
+            { color: "blush", size: "9rem", className: "left-10 top-28 hidden xl:block" },
+            { color: "orange", size: "7rem", className: "right-12 top-44 hidden xl:block" },
           ]}
         />
         <Container className="relative">

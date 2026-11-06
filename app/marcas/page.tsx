@@ -81,9 +81,9 @@ export default function MarcasPage() {
       <section className="relative overflow-hidden pb-16 pt-32 md:pb-24 md:pt-40" aria-labelledby="hero-marcas">
         <DecorCircles
           circles={[
-            { color: "blush", size: "34rem", className: "-right-40 top-20 hidden lg:block" },
+            { color: "blush", size: "20rem", className: "right-10 top-24 hidden lg:block" },
             { color: "orange", size: "10rem", className: "right-[28rem] bottom-10 hidden xl:block" },
-            { color: "pink", size: "14rem", className: "-left-24 -bottom-24" },
+            { color: "pink", size: "5rem", className: "bottom-5 left-8 hidden md:block" },
           ]}
         />
         <Container className="relative grid items-center gap-14 lg:grid-cols-[1.15fr_1fr]">
@@ -113,7 +113,7 @@ export default function MarcasPage() {
 
       {/* Problema */}
       <Section tone="plum" labelledBy="problema-titulo">
-        <DecorCircles circles={[{ color: "pink", size: "22rem", className: "-left-32 -bottom-40" }]} />
+        <DecorCircles circles={[{ color: "pink", size: "6rem", className: "bottom-8 left-8 hidden lg:block" }]} />
         <div className="relative grid gap-12 lg:grid-cols-2">
           <SectionHeading
             id="problema-titulo"
@@ -159,7 +159,7 @@ export default function MarcasPage() {
             </dl>
           </div>
           <FadeIn className="relative flex justify-center">
-            <span aria-hidden="true" className="absolute -left-6 top-8 h-56 w-56 rounded-full bg-orange" />
+            <span aria-hidden="true" className="absolute left-0 top-8 h-56 w-56 rounded-full bg-orange" />
             <div className="relative rounded-card-lg border border-cream-dark bg-cream p-8 shadow-soft">
               <MatchScoreRing value={92} size={180} />
               <p className="mt-5 max-w-[14rem] text-center text-body-sm text-plum-soft">

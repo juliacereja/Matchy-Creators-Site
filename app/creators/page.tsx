@@ -80,9 +80,9 @@ export default function CreatorsPage() {
       <section className="relative overflow-hidden pb-16 pt-32 md:pb-24 md:pt-40" aria-labelledby="hero-creators">
         <DecorCircles
           circles={[
-            { color: "pink", size: "34rem", className: "-right-40 top-24 hidden lg:block" },
+            { color: "pink", size: "22rem", className: "right-6 top-28 hidden lg:block" },
             { color: "orange", size: "8rem", className: "right-[30rem] top-28 hidden xl:block" },
-            { color: "blush", size: "20rem", className: "-left-32 -bottom-32" },
+            { color: "blush", size: "5rem", className: "bottom-5 left-8 hidden md:block" },
           ]}
         />
         <Container className="relative grid items-center gap-14 lg:grid-cols-[1.15fr_1fr]">
@@ -173,7 +173,7 @@ export default function CreatorsPage() {
 
       {/* Mockup do app */}
       <Section labelledBy="app-creators">
-        <DecorCircles circles={[{ color: "orange", size: "18rem", className: "-left-24 bottom-10 hidden md:block" }]} />
+        <DecorCircles circles={[{ color: "orange", size: "10rem", className: "bottom-10 left-6 hidden lg:block" }]} />
         <div className="relative grid items-center gap-14 lg:grid-cols-2">
           <div className="relative">
             <ScriptSeal tone="plum" className="absolute -top-4 right-4 z-30 sm:right-16">Em breve</ScriptSeal>
