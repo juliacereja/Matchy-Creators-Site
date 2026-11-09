@@ -55,5 +55,5 @@ Use "creators" (e "creator" no singular) para falar de quem produz conteúdo, po
 
 ## Pendências antes de publicar
 
-- **Placeholders**: preços e recursos (`config/plans.ts`), redes e e-mail (`config/links.ts`, `config/site.ts`), fotos (componente `PhotoPlaceholder`), campanhas e creators fictícios dos mockups (`components/mockups/`), textos de termos e privacidade (revisão jurídica).
+- **Placeholders**: preços e recursos (`config/plans.ts`), fotos (componente `PhotoPlaceholder`), campanhas e creators fictícios dos mockups (`components/mockups/`), textos de termos e privacidade (revisão jurídica).
 - **Acessibilidade de cor**: `#E5215F` com texto creme pequeno dá contraste 4,1:1 (o AA pede 4,5:1). Por isso os botões usam texto bold de 19px, as superfícies magenta com texto pequeno usam `pink-deep` (#D61C56) e o texto magenta pequeno sobre creme usa `pink-ink` (#B8174C). Laranja leva texto plum, porque creme sobre laranja não passa no AA.

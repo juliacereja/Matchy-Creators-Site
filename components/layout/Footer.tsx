@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Logo } from "@/components/brand/Logo";
 import { links } from "@/config/links";
 import { Container } from "@/components/ui/Container";
-import { InstagramIcon, TikTokIcon, LinkedInIcon } from "@/components/ui/icons";
+import { InstagramIcon, TikTokIcon } from "@/components/ui/icons";
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -39,11 +39,6 @@ export function Footer() {
             <li>
               <a href={links.tiktok} target="_blank" rel="noopener noreferrer" aria-label="TikTok da Matchy" className="flex h-12 w-12 items-center justify-center rounded-full bg-cream/10 transition-colors hover:bg-pink">
                 <TikTokIcon />
-              </a>
-            </li>
-            <li>
-              <a href={links.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn da Matchy" className="flex h-12 w-12 items-center justify-center rounded-full bg-cream/10 transition-colors hover:bg-pink">
-                <LinkedInIcon />
               </a>
             </li>
           </ul>

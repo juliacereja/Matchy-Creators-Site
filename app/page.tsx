@@ -140,7 +140,7 @@ export default function HomePage() {
             </span>
           </h2>
           <p className="mt-5 text-body text-plum-soft">
-            Marcas fundadoras vão garantir um preço especial que não sobe depois, e creators da lista vão montar o perfil
+            Marcas fundadoras vão garantir um preço especial, e creators da lista vão montar o perfil
             antes de todo mundo para aparecer nas primeiras campanhas.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
