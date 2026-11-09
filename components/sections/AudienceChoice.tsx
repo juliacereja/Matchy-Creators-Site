@@ -41,7 +41,7 @@ export function AudienceChoice({ className }: { className?: string }) {
             o.tone,
           )}
         >
-          <span aria-hidden="true" className="absolute right-6 top-6 h-20 w-20 rounded-full bg-orange transition-transform duration-500 group-hover:scale-110" />
+          <span aria-hidden="true" className="absolute -right-16 -top-16 h-44 w-44 rounded-full bg-orange transition-transform duration-500 group-hover:scale-110" />
           <span className={cn("relative w-fit rounded-full px-3 py-1 text-sm font-bold", o.chip)}>{o.chipText}</span>
           <span className="relative mt-8 block">
             <span className="flex items-center gap-3 font-display text-[2.25rem] font-extrabold leading-none tracking-[0.02em] md:text-[2.75rem]">
