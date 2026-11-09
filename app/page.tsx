@@ -134,7 +134,10 @@ export default function HomePage() {
       <Section labelledBy="cta-home-titulo" className="text-center">
         <div className="mx-auto max-w-2xl">
           <h2 id="cta-home-titulo" className="text-title-2 text-plum">
-            As primeiras vagas vão para quem chegar <span className="text-pink">primeiro</span>
+            As primeiras vagas vão para <br />
+            <span className="whitespace-nowrap">
+              quem chegar <span className="text-pink">primeiro</span>
+            </span>
           </h2>
           <p className="mt-5 text-body text-plum-soft">
             Marcas fundadoras vão garantir um preço especial que não sobe depois, e creators da lista vão montar o perfil
