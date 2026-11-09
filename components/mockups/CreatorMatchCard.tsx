@@ -26,7 +26,7 @@ export function CreatorMatchCard({ className }: { className?: string }) {
           <p className="font-display text-xl text-plum">Bia Martins</p>
           <p className="text-sm font-medium text-plum-soft">Belo Horizonte, MG</p>
         </div>
-        <p className="mt-0.5 text-sm text-plum-soft">@biamakes · skincare e make leve · 8,4 mil seguidores</p>
+        <p className="mt-0.5 text-sm text-plum-soft">@biamakes · skincare e make leve · 1,4 mil seguidores</p>
 
         <ul className="mt-4 flex flex-wrap gap-2" aria-label="Afinidades">
           {["Clean beauty", "Tom acolhedor", "Estética natural"].map((t) => (
